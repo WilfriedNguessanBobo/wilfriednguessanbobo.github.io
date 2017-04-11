@@ -2,6 +2,12 @@
 /*  border: solid;*/
 margin: 0;
 }
+@font-face {
+font-family: 'glyphicons';
+src: url('assets/librairie/glyphicons-halflings-regular.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
 /*.container {
   padding-right: 0px;
   padding-left: 0px;
