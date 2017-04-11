@@ -1,0 +1,20 @@
+{
+  "name": "moncv",
+  "homepage": "https://github.com/WilfriedBobo/wilfriedbobo.github.io",
+  "authors": [
+    "wilfriedbobo <wilfried.nguessan.bobo@gmail.com>"
+  ],
+  "description": "cd numerique",
+  "main": "index.html",
+  "keywords": [
+    "cv"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
