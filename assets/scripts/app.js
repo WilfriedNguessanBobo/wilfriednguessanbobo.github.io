@@ -23,10 +23,7 @@ var App = angular.module('App', ['ngRoute'])
   ])*/
   App.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
-      .when('/accueil', {
-        templateUrl: '/index.html',
-        controller: 'indexCtrl'
-      })
+      
       .when('/presentation', {
         templateUrl: 'assets/partials/presentation.html',
         controller: 'presenCtrl'
