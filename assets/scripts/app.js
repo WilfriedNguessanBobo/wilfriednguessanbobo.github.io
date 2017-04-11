@@ -46,10 +46,8 @@ var App = angular.module('App', ['ngRoute'])
       .when('/loisirs', {
         templateUrl: 'assets/partials/loisirs.html',
         controller: 'loisiCtrl'
-      })
-      .otherwise({
-        redirectTo: '/accueil'
       });
+      
   }]);
   App.controller('indexCtrl', ['$scope', function($scope){
           
