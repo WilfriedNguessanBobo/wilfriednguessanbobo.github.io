@@ -1,28 +1,19 @@
 $(document).ready(function (){
            $("#do_di").click(function (){
-               $('html, body').animate({
-                   scrollTop: $(".content_present").offset().top
-               }, 1500);
+             $("html, body").animate({ scrollTop: $(document).height()/4 }, 1500);
+
            });
            $("#re_di").click(function (){
-               $('html, body').animate({
-                   scrollTop: $(".content_competence").offset().top
-               }, 1500);
+               $("html, body").animate({ scrollTop: $(document).height()/4 }, 1500);
            });
            $("#fa_di").click(function (){
-               $('html, body').animate({
-                   scrollTop: $(".content_experience").offset().top
-               }, 1500);
+              $("html, body").animate({ scrollTop: $(document).height()/4 }, 1500);
            });
            $("#sol_di").click(function (){
-               $('html, body').animate({
-                   scrollTop: $(".content_contact").offset().top
-               }, 1500);
+               $("html, body").animate({ scrollTop: $(document).height()/4 }, 1500);
            });
            $("#la_di").click(function (){
-               $('html, body').animate({
-                   scrollTop: $(".content_loisir").offset().top
-               }, 1500);
+               $("html, body").animate({ scrollTop: $(document).height()/4 }, 1500);
            });
        });
 function play(toto){
