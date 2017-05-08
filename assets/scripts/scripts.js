@@ -1,4 +1,30 @@
-
+$(document).ready(function (){
+           $("#do_di").click(function (){
+               $('html, body').animate({
+                   scrollTop: $(".content_present").offset().top
+               }, 1500);
+           });
+           $("#re_di").click(function (){
+               $('html, body').animate({
+                   scrollTop: $(".content_competence").offset().top
+               }, 1500);
+           });
+           $("#fa_di").click(function (){
+               $('html, body').animate({
+                   scrollTop: $(".content_experience").offset().top
+               }, 1500);
+           });
+           $("#sol_di").click(function (){
+               $('html, body').animate({
+                   scrollTop: $(".content_contact").offset().top
+               }, 1500);
+           });
+           $("#la_di").click(function (){
+               $('html, body').animate({
+                   scrollTop: $(".content_loisir").offset().top
+               }, 1500);
+           });
+       });
 function play(toto){
   var note = document.getElementById(toto);
   note.play();
@@ -17,35 +43,35 @@ $(document).keydown(function(e) {
             $('#re_btn').trigger('click');// up
         break;
 
-        case 70: 
+        case 70:
             $('#mi_btn').trigger('click');// right
         break;
 
-        case 71: 
+        case 71:
             $('#fa_btn').trigger('click');// down
         break;
-        case 74: 
+        case 74:
             $('#sol_btn').trigger('click');// down
         break;
-        case 75: 
+        case 75:
             $('#la_btn').trigger('click');// down
         break;
-        case 77: 
+        case 77:
             $('#si_btn').trigger('click');// down
         break;
-        case 90: 
+        case 90:
             $('#do_di').trigger('click');// down
         break;
-        case 69: 
+        case 69:
             $('#re_di').trigger('click');// down
         break;
-        case 89: 
+        case 89:
             $('#fa_di').trigger('click');// down
         break;
-        case 85: 
+        case 85:
             $('#sol_di').trigger('click');// down
         break;
-        case 73: 
+        case 73:
             $('#la_di').trigger('click');// down
         break;
     }
