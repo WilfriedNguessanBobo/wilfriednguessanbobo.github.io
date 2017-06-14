@@ -296,6 +296,9 @@ li:hover {
   .outils{
     display: none;
   }
+  #opquast{
+    margin-top: 10px;
+  }
   .outils_name h5{
     margin: 0;
     padding: 2px;
